@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.over18 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0.5px;
+}
+
+p {
+  color: #bf1650;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+p::before {
+  display: inline;
+  /* content: "⚠ "; */
+}
+
+label {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+InputLabel {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* .form-multiple-column .form-checkbox-item {
+  width: 50%;
+} */
+
+section {
+  margin-bottom: 15px;
+}
+
+section .checkbox {
+  padding: 10;
+  margin: 10;
+  width: 45%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+ul li {
+  font-size: 20px;
+}

@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.steps {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.steps a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 2;
+  color: white;
+}
+
+.steps li {
+  background: #03989e;
+  padding: 3px 15px;
+  border-right: 1px solid #333;
+}
+
+.steps li:last-child {
+  border: none;
+}
+
+.container,
+form {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 100;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+}
+
+h3 {
+  font-weight: 200;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+p {
+  color: #bf1650;
+}
+
+p::before {
+  display: inline;
+  content: "⚠ ";
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #aaaaaa;
+}
+
+label {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 13px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+button[type="submit"],
+input[type="submit"] {
+  background: #ec5990;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+  background: #bf1650;
+}
+
+button[type="submit"]:active,
+input[type="button"]:active,
+input[type="submit"]:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+
+input:disabled {
+  opacity: 0.4;
+}
+
+input[type="button"]:hover {
+  transition: 0.3s all;
+}
+
+button[type="submit"],
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+button[type="button"] {
+  display: block;
+  appearance: none;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+hr {
+  margin-top: 30px;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+button {
+  display: block;
+  appearance: none;
+  margin-top: 40px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+pre {
+  white-space: pre;
+}
+
+.active {
+  border-bottom: 2px solid #ec5990 !important;
+}
+
+.form-multiple-column .form-checkbox-item {
+  width: 50%;
+}
+
+section .checkbox {
+  padding: 10;
+  margin: 10;
+  width: 40%;
+  display: inline-block;
+}
