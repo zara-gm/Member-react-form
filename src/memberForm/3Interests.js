@@ -75,7 +75,7 @@ export const Interests = () => {
               I prefer not to say
           </InputLabel>
             <Grid item xs={12} sm={6}>
-              <TextField id="pronoun" name="pronoun" label="My pronoun is" fullWidth />
+              <TextField id="pronoun" name="pronoun" label="My pronoun(s)..." fullWidth />
             </Grid><br />
             <label>Interests</label>
             <section>

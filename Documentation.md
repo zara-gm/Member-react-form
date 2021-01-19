@@ -62,3 +62,7 @@ https://codesandbox.io/s/c7s75?file=/demo.js
 # React hook form
 
 https://github.com/react-hook-form/react-hook-form/pull/3741
+
+# Deploy heroku app
+
+https://www.youtube.com/watch?v=CzsuPVc4Pss

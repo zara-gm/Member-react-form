@@ -7,6 +7,7 @@ import {
   Checkbox,
   Grid,
   InputLabel,
+  TextField
 } from "@material-ui/core";
 import { yupResolver } from "@hookform/resolvers";
 import * as yup from "yup";
@@ -241,6 +242,10 @@ export const Identity = () => {
           </InputLabel>
           </section>
           <section>
+            <Grid item xs={12} sm={6}>
+              <TextField id="other" name="other" label="Other" fullWidth />
+            </Grid><br />
+
             <label>
               Additional comments:
           </label><br />

@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: theme.spacing(2),
     marginRight: theme.spacing(2),
     [theme.breakpoints.up(800 + theme.spacing(2) * 2)]: {
-      width: 1000,
+      width: 900,
       marginLeft: 'auto',
       marginRight: 'auto',
     },
@@ -134,10 +134,11 @@ export default function Checkout() {
             {activeStep === steps.length ? (
               <React.Fragment>
                 <Typography variant="h5" gutterBottom>
-                  Thanks for signing up!
+                  Thank you for Signing up!
                 </Typography>
                 <Typography variant="subtitle1">
-                  Please review your email for further instructions.
+                  Please review your email for further instructions.<br />
+Let's make history together
                 </Typography>
               </React.Fragment>
             ) : (
