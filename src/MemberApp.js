@@ -72,7 +72,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const steps = ['Personal Information', 'Identity', 'Interests', 'Code Of Conduct', 'Slack Conduct',
-  // 'Review your order'
 ];
 
 function getStepContent(step) {
@@ -89,8 +88,6 @@ function getStepContent(step) {
       return <SlackConduct />;
     case 5:
       return <ThankYou />;
-    // case 6:
-    //   return <Review />;
     default:
       throw new Error('Unknown step');
   }
