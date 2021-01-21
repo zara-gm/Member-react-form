@@ -66,3 +66,10 @@ https://github.com/react-hook-form/react-hook-form/pull/3741
 # Deploy heroku app
 
 https://www.youtube.com/watch?v=CzsuPVc4Pss
+
+Country selector
+https://github.com/country-regions/country-region-selector
+
+React country
+https://github.com/country-regions/react-country-region-selector
+https://reactjsexample.com/country-region-react-select-boxes-for-your-forms/
