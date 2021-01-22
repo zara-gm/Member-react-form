@@ -35,8 +35,10 @@ export const Interests = () => {
     <React.Fragment>
       <Form onSubmit={handleSubmit(onSubmit)}>
         <Grid container spacing={3}>
-          <label>What are your pronouns?</label>
+          <label>What are your pronouns?</label><br />
+
           <section>
+            <h3>This helps us understand the best way to address you.</h3>
             <Controller
               as={Checkbox}
               name="Checkbox"
