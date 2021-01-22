@@ -103,6 +103,7 @@ export const PersonalInfo = () => {
           <Grid item xs={12} sm={6}>
             <TextField
               fullWidth
+              required
               ref={register}
               id="firstName"
               type="text"
@@ -135,7 +136,6 @@ export const PersonalInfo = () => {
           </Grid>
           <Grid item xs={12} sm={6}>
             <TextField
-              required
               id="phone"
               type="number"
               name="phone"
@@ -145,7 +145,6 @@ export const PersonalInfo = () => {
           </Grid>
           <Grid item xs={12}>
             <TextField
-              required
               id="address1"
               name="address1"
               label="Address line 1"
@@ -164,7 +163,6 @@ export const PersonalInfo = () => {
           </Grid>
           <Grid item xs={12} sm={6}>
             <TextField
-              required
               id="city"
               name="city"
               label="City"
@@ -177,7 +175,6 @@ export const PersonalInfo = () => {
           </Grid>
           <Grid item xs={12} sm={6}>
             <TextField
-              required
               id="zip"
               name="zip"
               label="Zip / Postal code"
@@ -187,7 +184,6 @@ export const PersonalInfo = () => {
           </Grid>
           <Grid item xs={12} sm={6}>
             <TextField
-              required
               id="country"
               name="country"
               label="Country"

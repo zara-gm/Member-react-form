@@ -37,7 +37,6 @@ export const Interests = () => {
         <Grid container spacing={3}>
           <label>What are your pronouns?</label>
           <section>
-            {/* <TextField id="pronoun" name="pronoun" label="Let me type" /> */}
             <Controller
               as={Checkbox}
               name="Checkbox"
