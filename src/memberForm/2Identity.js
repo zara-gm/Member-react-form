@@ -158,6 +158,16 @@ export const Identity = () => {
               defaultValue=""
             />
             <InputLabel htmlFor="identify-checkbox" className="checkbox">
+              Latina / Latino
+          </InputLabel>
+            <Controller
+              as={Checkbox}
+              name="Checkbox"
+              type="checkbox"
+              control={control}
+              defaultValue=""
+            />
+            <InputLabel htmlFor="identify-checkbox" className="checkbox">
               Asian / Pacific Islander
           </InputLabel>
             <Controller
