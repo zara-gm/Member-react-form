@@ -135,7 +135,7 @@ export default function Checkout() {
                 </Typography>
                 <Typography variant="subtitle1">
                   Please review your email for further instructions.<br />
-Let's make history together
+Let's make history together!
                 </Typography>
               </React.Fragment>
             ) : (
