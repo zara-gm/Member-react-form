@@ -80,11 +80,12 @@ export const PersonalInfo = () => {
               as={
                 <RadioGroup aria-label="over18" name="over18" row>
                   <FormControlLabel
+                    required
                     ref={register}
                     id="yes"
                     name="yes"
                     value="yes" label="Yes"
-                    control={<Radio />} required
+                    control={<Radio />}
                   />
                   <FormControlLabel
                     ref={register}
