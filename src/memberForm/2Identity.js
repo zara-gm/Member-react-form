@@ -78,17 +78,7 @@ export const Identity = () => {
               defaultValue=""
             />
             <InputLabel htmlFor="identify-checkbox" className="checkbox">
-              A Man
-          </InputLabel>
-            <Controller
-              as={Checkbox}
-              name="Checkbox"
-              type="checkbox"
-              control={control}
-              defaultValue=""
-            />
-            <InputLabel htmlFor="identify-checkbox" className="checkbox">
-              A woman
+              A man
           </InputLabel>
             <Controller
               as={Checkbox}
@@ -245,11 +235,6 @@ export const Identity = () => {
             <Grid item xs={12} sm={6}>
               <TextField id="other" name="other" label="Other" fullWidth />
             </Grid><br />
-
-            <label>
-              Additional comments:
-          </label><br />
-            <textarea ref={register} id="comments" name="comments" rows="3" cols="50"></textarea>
           </section>
         </Grid>
       </Form>

@@ -100,23 +100,6 @@ export const PersonalInfo = () => {
               control={control}
             />
           </Grid>
-          <Grid item xs={12}>
-            <InputLabel htmlFor="experienceLevel-select">
-              Experience Level
-          </InputLabel>
-            <Controller
-              control={control}
-              name="experienceLevel"
-              as={
-                <Select id="experienceLevel" name="experienceLevel" error={!!errors.experienceLevel} helperText={errors?.experienceLevel?.message} ref={register}>
-                  <MenuItem value={0}>0-5 years</MenuItem>
-                  <MenuItem value={6}>6-10 years</MenuItem>
-                  <MenuItem value={11}>11-15 years</MenuItem>
-                  <MenuItem value={16}>16 +years</MenuItem>
-                </Select>
-              }
-            />
-          </Grid>
           <Grid item xs={12} sm={6}>
             <TextField
               fullWidth
@@ -210,6 +193,23 @@ export const PersonalInfo = () => {
               label="Country"
               fullWidth
               autoComplete="shipping country"
+            />
+          </Grid>
+          <Grid item xs={12}>
+            <InputLabel htmlFor="experienceLevel-select">
+              Experience Level
+          </InputLabel>
+            <Controller
+              control={control}
+              name="experienceLevel"
+              as={
+                <Select id="experienceLevel" name="experienceLevel" error={!!errors.experienceLevel} helperText={errors?.experienceLevel?.message} ref={register}>
+                  <MenuItem value={0}>0-5 years</MenuItem>
+                  <MenuItem value={6}>6-10 years</MenuItem>
+                  <MenuItem value={11}>11-15 years</MenuItem>
+                  <MenuItem value={16}>16 +years</MenuItem>
+                </Select>
+              }
             />
           </Grid>
         </Grid>

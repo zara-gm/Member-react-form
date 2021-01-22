@@ -104,13 +104,13 @@ If a community member engages in unacceptable behavior, we may take any action d
           <Typography component="h4" variant="h6">
             REPORTING VIOLATIONS
 </Typography>
-          <li>If you are subject to or witness unacceptable behavior, or have any other concerns, please notify us as soon as possible by emailing conduct@cyberdei.org or pinging an admin on Slack..</li>
+          <li>If you are subject to or witness unacceptable behavior, or have any other concerns, please notify us as soon as possible by emailing conduct@cyberdei.org or pinging an admin on Slack.</li>
         </ul>
       </section>
       <h4>EFFECTIVE DATE: 08.07.2020</h4>
       <div className="form-group form-check">
         <input name="acceptTerms" type="checkbox" ref={register} id="acceptTerms" className={`form-check-input ${errors.acceptTerms ? 'is-invalid' : ''}`} />
-        <label htmlFor="acceptTerms" className="form-check-label">Accept Terms &amp; Conditions</label>
+        <label htmlFor="acceptTerms" className="form-check-label">I agree to abide by the CyberDEI Slack Community Guidelines</label>
         <div className="invalid-feedback">{errors.acceptTerms?.message}</div>
       </div>
 

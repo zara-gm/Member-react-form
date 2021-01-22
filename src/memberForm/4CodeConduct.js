@@ -67,7 +67,8 @@ export const CodeConduct = () => {
         </div> */}
       <div className="form-group form-check">
         <input name="acceptTerms" type="checkbox" ref={register} id="acceptTerms" className={`form-check-input ${errors.acceptTerms ? 'is-invalid' : ''}`} />
-        <label htmlFor="acceptTerms" className="form-check-label">Accept Terms &amp; Conditions</label>
+        <label htmlFor="acceptTerms" className="form-check-label">
+          I agree to abide by the CyberDEI Code of Conduct</label>
         <div className="invalid-feedback">{errors.acceptTerms?.message}</div>
       </div>
     </Form>
