@@ -24,3 +24,7 @@
 8. Agree to the terms then show next button
 9. Accept all then show submit button
 10. Run static code analysis
+11. Formcontrol checkboxes
+    https://codesandbox.io/s/8bnsu?file=/demo.js:0-2562
+    https://material-ui.com/api/form-control/
+    https://material-ui.com/components/checkboxes/
